@@ -1,0 +1,100 @@
+[
+  {
+    "objectID": "ShinyLive.html",
+    "href": "ShinyLive.html",
+    "title": "Essay on Shinylive",
+    "section": "",
+    "text": "Shinylive is a framework that allows you to create serverless Shiny applications. Unlike traditional Shiny apps, which require an R server to execute the code, Shinylive runs entirely in the user’s browser using WebAssembly. This makes it lightweight and easy to deploy."
+  },
+  {
+    "objectID": "ShinyLive.html#pros-of-shinylive",
+    "href": "ShinyLive.html#pros-of-shinylive",
+    "title": "Essay on Shinylive",
+    "section": "Pros of Shinylive",
+    "text": "Pros of Shinylive\n\nCost-effective: No server costs, as everything runs in the browser.\nEase of sharing: Shareable via simple static files (e.g., HTML).\nNo server dependency: Works entirely offline once loaded in the browser."
+  },
+  {
+    "objectID": "ShinyLive.html#cons-of-shinylive",
+    "href": "ShinyLive.html#cons-of-shinylive",
+    "title": "Essay on Shinylive",
+    "section": "Cons of Shinylive",
+    "text": "Cons of Shinylive\n\nLimited resources: Performance depends on the user’s browser, making it unsuitable for heavy computations.\nCompatibility: Requires modern browsers with WebAssembly support.\nFeature limitations: Some Shiny features may not be fully supported."
+  },
+  {
+    "objectID": "ShinyLive.html#differences-between-shinylive-and-traditional-shiny-apps",
+    "href": "ShinyLive.html#differences-between-shinylive-and-traditional-shiny-apps",
+    "title": "Essay on Shinylive",
+    "section": "Differences Between Shinylive and Traditional Shiny Apps",
+    "text": "Differences Between Shinylive and Traditional Shiny Apps\n\nHosting:\n\nShiny Apps: Require a server (e.g., RStudio Connect, Shiny Server) for hosting.\nShinylive: Runs directly in the browser and does not need a server.\n\nPerformance:\n\nShiny Apps: Can handle large datasets and complex calculations thanks to server resources.\nShinylive: Limited by the user’s browser capabilities and may struggle with large datasets.\n\nDeployment:\n\nShiny Apps: Require a hosting platform and proper server configuration.\nShinylive: Can be shared as static HTML files and hosted on platforms like GitHub Pages."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Home",
+    "section": "",
+    "text": "Hello, my name is Jaffer. I am passionate about marketing and sales. My career aspiration is to become a leading expert in marketing management and become a business owner.\n\n\n\n\nData Analysis with R and Python\nStrategic planning\nSales leadership\nCRM tools\n\n\n\n\n\nAssociates degree in Business Administration\nBachelor’s degree in Business Administration\n(Concentration in Marketing Management)"
+  },
+  {
+    "objectID": "index.html#about-me",
+    "href": "index.html#about-me",
+    "title": "Home",
+    "section": "",
+    "text": "Hello, my name is Jaffer. I am passionate about marketing and sales. My career aspiration is to become a leading expert in marketing management and become a business owner."
+  },
+  {
+    "objectID": "index.html#my-skills",
+    "href": "index.html#my-skills",
+    "title": "Home",
+    "section": "",
+    "text": "Data Analysis with R and Python\nStrategic planning\nSales leadership\nCRM tools"
+  },
+  {
+    "objectID": "index.html#education",
+    "href": "index.html#education",
+    "title": "Home",
+    "section": "",
+    "text": "Associates degree in Business Administration\nBachelor’s degree in Business Administration\n(Concentration in Marketing Management)"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "dashboard.html",
+    "href": "dashboard.html",
+    "title": "Dashboard",
+    "section": "",
+    "text": "Welcome to the dashboard! Below are some interactive visualizations.\n\n\n\n\n\nAttaching package: 'plotly'\n\n\nThe following object is masked from 'package:ggplot2':\n\n    last_plot\n\n\nThe following object is masked from 'package:stats':\n\n    filter\n\n\nThe following object is masked from 'package:graphics':\n\n    layout\n\n\n\n\n\n\n\n\n\n\n\n\nAttaching package: 'dplyr'\n\n\nThe following objects are masked from 'package:stats':\n\n    filter, lag\n\n\nThe following objects are masked from 'package:base':\n\n    intersect, setdiff, setequal, union\n\n\n\n\n\nclass\nAvg_Highway_MPG\nAvg_Engine_Displacement\n\n\n\n\n2seater\n24.80000\n6.160000\n\n\ncompact\n28.29787\n2.325532\n\n\nmidsize\n27.29268\n2.921951\n\n\nminivan\n22.36364\n3.390909\n\n\npickup\n16.87879\n4.418182\n\n\nsubcompact\n28.14286\n2.660000\n\n\nsuv\n18.12903\n4.456452\n\n\n\n\n\n\n\n\n\n\n\n\nWarning: package 'DT' was built under R version 4.4.3\n\n\n\n\n\n\n\n\nWarning: package 'quarto' was built under R version 4.4.3"
+  },
+  {
+    "objectID": "dashboard.html#interactive-plot",
+    "href": "dashboard.html#interactive-plot",
+    "title": "Dashboard",
+    "section": "",
+    "text": "Attaching package: 'plotly'\n\n\nThe following object is masked from 'package:ggplot2':\n\n    last_plot\n\n\nThe following object is masked from 'package:stats':\n\n    filter\n\n\nThe following object is masked from 'package:graphics':\n\n    layout"
+  },
+  {
+    "objectID": "dashboard.html#summary-table",
+    "href": "dashboard.html#summary-table",
+    "title": "Dashboard",
+    "section": "",
+    "text": "Attaching package: 'dplyr'\n\n\nThe following objects are masked from 'package:stats':\n\n    filter, lag\n\n\nThe following objects are masked from 'package:base':\n\n    intersect, setdiff, setequal, union\n\n\n\n\n\nclass\nAvg_Highway_MPG\nAvg_Engine_Displacement\n\n\n\n\n2seater\n24.80000\n6.160000\n\n\ncompact\n28.29787\n2.325532\n\n\nmidsize\n27.29268\n2.921951\n\n\nminivan\n22.36364\n3.390909\n\n\npickup\n16.87879\n4.418182\n\n\nsubcompact\n28.14286\n2.660000\n\n\nsuv\n18.12903\n4.456452"
+  },
+  {
+    "objectID": "dashboard.html#filtered-data",
+    "href": "dashboard.html#filtered-data",
+    "title": "Dashboard",
+    "section": "",
+    "text": "Warning: package 'DT' was built under R version 4.4.3\n\n\n\n\n\n\n\n\nWarning: package 'quarto' was built under R version 4.4.3"
+  },
+  {
+    "objectID": "ShinyApps.html",
+    "href": "ShinyApps.html",
+    "title": "Essay on ShinyApps",
+    "section": "",
+    "text": "Shiny Apps\nShiny is an R package that enables you to build interactive web applications directly from R. This means you can create dynamic dashboards, data visualizations, and user interfaces without needing extensive knowledge of web development technologies like HTML, CSS, or JavaScript.\n\n\nHow Shiny Works\nShiny apps consist of two main components: 1. UI (User Interface): Defines the layout and appearance of the app. 2. Server: Contains the logic that controls the app’s behavior and reacts to user inputs.\n\nReactive Programming: Automatically updates outputs when inputs change.\nInteractive Visualizations: Incorporates plots, tables, and other outputs that respond to user interactions.\nSeamless Integration: Works seamlessly with other R packages for data manipulation and visualization (e.g., ggplot2, dplyr).\n\n\n\nUse Cases\nShiny is commonly used in: - Data Dashboards: For real-time monitoring and reporting. - Data Exploration: To allow users to interactively explore datasets. - Prototyping and Presentations: Quickly creating functional prototypes of data applications.\n\n\nConclusion\nShiny is a powerful tool that bridges the gap between data analysis and application development. It empowers data scientists and analysts to build interactive applications without requiring a background in web development, making data insights more accessible and actionable."
+  }
+]
