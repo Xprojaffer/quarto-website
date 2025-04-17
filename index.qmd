@@ -1,0 +1,24 @@
+---
+title: "Home"
+---
+
+# Welcome to My Website
+
+![](images/jaffer-01.jpg)
+
+## About Me
+
+Hello, my name is Jaffer. I am passionate about marketing and sales. My career aspiration is to become a leading expert in marketing management and become a business owner.
+
+## My Skills
+
+-   Data Analysis with R and Python
+-   Strategic planning
+-   Sales leadership
+-   CRM tools
+
+## Education
+
+-   Associates degree in Business Administration
+-   Bachelor's degree in Business Administration\
+    (Concentration in Marketing Management)

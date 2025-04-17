@@ -1,0 +1,4 @@
+- source: project
+  quarto-pub:
+    - id: d679b37c-aa90-4fa4-880d-713992a80a1b
+      url: 'https://jaffer.quarto.pub/my-quarto-website'

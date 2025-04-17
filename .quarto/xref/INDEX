@@ -1,0 +1,20 @@
+{
+  "index.qmd": {
+    "index.html": "5bcdef94"
+  },
+  "about.qmd": {
+    "about.html": "abb7cd2c"
+  },
+  "dashboard.qmd": {
+    "dashboard.html": "eff2e82e"
+  },
+  "ShinyApps.qmd": {
+    "ShinyApps.html": "0ecad539"
+  },
+  "ShinyLive.qmd": {
+    "ShinyLive.html": "14c7b761"
+  },
+  "ShinyApplication.qmd": {
+    "ShinyApplication.html": "1205fc67"
+  }
+}

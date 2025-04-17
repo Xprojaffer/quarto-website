@@ -1,0 +1,253 @@
+---
+title: "Post Pandemic Consumer Behavior Project Proposal"
+author: "Jaffer K, Kairi M, Richard M, Jonathon C, Aaron, R"
+date: "2025-03-24"
+format: 
+  revealjs:
+    theme: serif
+    width: 1600
+    height: 900
+    footer: Consumer Behavior Post Pandemic Project
+    transition: slide
+    transition-speed: default
+    incremental: false
+    toc: true
+    toc-depth: 1
+    slide-number: true
+    scrollable: true
+    smaller: true
+    code-fold: false
+    code-overflow: wrap
+    number-sections: false
+    number-depth: 5
+    embed-resources: true
+    css: styles.css
+editor: visual
+execute: 
+  echo: true
+  freeze: auto
+---
+
+## Problem Definition
+
+-   The COVID-19 pandemic has had a profound impact on global public health and socio-economic systems. Understanding and analyzing COVID-19 data is crucial for developing informed public policies, improving healthcare responses, and mitigating future outbreaks. However, raw COVID-19 datasets often contain inconsistencies, missing values, and errors, which can hinder accurate analysis and decision-making.
+
+**Why is the issue significant?**
+
+-   Accurate COVID-19 data is essential for policymakers, healthcare professionals, and researchers to make evidence-based decisions. Incomplete or inaccurate data can lead to flawed analyses, misallocation of resources, and ineffective public health interventions. By improving data quality through comprehensive cleaning and wrangling techniques, we can enhance the reliability of research outcomes and provide actionable insights for future pandemic preparedness and response.
+
+**What gap in knowledge does it address?**
+
+-   Despite the abundance of COVID-19 data, there is a lack of standardized methods for cleaning and preparing these datasets for analysis. Existing studies often overlook the impact of poor data quality on analytical outcomes, leading to discrepancies in findings. This research addresses the gap by providing a systematic approach to data cleaning and preparation, ensuring that future analyses are based on consistent and accurate datasets. This will contribute to more reliable public health strategies and a better understanding of pandemic trends.The COVID-19 pandemic has had a profound impact on global public health and socio-economic systems. Understanding and analyzing COVID-19 data is crucial for developing informed public policies, improving healthcare responses, and mitigating future outbreaks. However, raw COVID-19 datasets often contain inconsistencies, missing values, and errors, which can hinder accurate analysis and decision-making.
+
+------------------------------------------------------------------------
+
+## Research Objectives
+
+1.  **To evaluate the effectiveness of COVID-19 safety measures**\
+    Analyze how well safety protocols (e.g., mask-wearing, sanitization) are followed and their impact on customer perceptions.
+
+2.  **To identify patterns in customer compliance with COVID-19 preventive behaviors**\
+    Investigate variables related to customer adherence to safety guidelines, including failures to follow safety protocols and their frequency.
+
+3.  **To assess the relationship between perceived safety and actual compliance in public settings**\
+    Explore how perceptions of safety in public places, like coffee shops, correlate with actual observed behaviors and safety failures.
+
+------------------------------------------------------------------------
+
+## Importance of the Topic
+
+-   Accurate analysis of COVID-19 data is crucial for understanding public behavior and the effectiveness of safety measures during the pandemic. This research focuses on cleaning and preparing large datasets to ensure precise and meaningful insights.
+-   The findings can aid policymakers, public health officials, and businesses in identifying areas where compliance with COVID-19 protocols may falter and where interventions are most needed.
+-   By ensuring high-quality data, we can improve future pandemic responses, reduce misinformation, and enhance public trust in safety measures. Furthermore, understanding patterns in compliance behavior is essential for developing targeted strategies to increase adherence to health guidelines.
+
+------------------------------------------------------------------------
+
+## Methods
+
+### Sampling and Data Collection
+
+-   The dataset was derived from a comprehensive survey assessing customer compliance with COVID-19 safety measures at hospitality establishments. The final sample size after cleaning is **736** unique participants. The data collection process included responses on mask-wearing behavior, social distancing adherence, and perceived safety levels. Participants were filtered based on key behavioral indicators and quality checks to ensure robust and reliable data.
+
+### Data Wrangling and Preparation
+
+-   **- Filtering and Cleaning:** Removed incomplete responses and invalid records on mask-wearing and social distancing.
+-   \- **Recoding Variables:** Created binary indicators for safety failures (mask, vaccination, and social distancing).
+-   \- **Handling Missing Values:** Applied case-wise deletion for critical missing data.
+-   \- **Final Dataset:** 736 observations reflecting compliance behaviors and perceived safety.
+
+------------------------------------------------------------------------
+
+## RQ1 / H1 (Jaffer)
+
+-   **Research Question 1 (RQ1):**\
+    How do customer perceptions of COVID-19 safety measures influence compliance behaviors in public spaces?
+
+-   **Hypothesis 1 (H1):**\
+    Higher perceived effectiveness of COVID-19 safety measures is positively associated with increased compliance behaviors in public spaces.
+
+### Variables
+
+-   **Independent Variable (IV):** Perceived effectiveness of COVID-19 safety measures (mask-wearing, vaccination confidence)
+-   **Dependent Variable (DV):** Compliance behaviors (mask-wearing, social distancing, adherence to safety protocols)
+-   Response scales (e.g., "Strongly Disagree" to "Strongly Agree") measure perceptions of control and willingness to comply with safety measures
+
+### Plan for Data Wrangling
+
+-   Filter and clean records with missing or inconsistent responses on mask-wearing and vaccination.
+-   Create binary variables to capture compliance behaviors (e.g., mask safety failure, social distancing failure).
+
+### Plan for Data Visualization
+
+-   Bar charts comparing compliance rates across different levels of perceived safety.
+-   Scatter plots showing the relationship between perceived safety and actual compliance.
+
+------------------------------------------------------------------------
+
+## RQ2 / H2 (Isaiah)
+
+-   **Research Question 2 (RQ2):**\
+    How have customer expectations for hygiene and sanitation standards in coffee shops evolved in the post-COVID era?
+
+-   **Hypothesis 2 (H2):**\
+    Customers are more likely to choose coffee shops that emphasize higher hygiene and sanitation standards over those with minimal visible cleanliness measures in the post-COVID era.
+
+### Variables
+
+-   **Independent Variable (IV):** Perceived hygiene and sanitation standards (e.g., presence of visible cleaning procedures, availability of hand sanitizers, staff wearing gloves/masks).
+-   **Dependent Variable (DV):** Customer preference for dining at coffee shops (measured by customer survey responses, foot traffic, or sales data).
+
+### Plan for Data Wrangling
+
+-   Remove duplicates or incomplete survey responses.
+
+-   Standardize categorical variables (e.g., High/Medium/Low cleanliness perception).
+
+-   Aggregate foot traffic or sales data by time period (daily, weekly).
+
+### Plan for Data Visualization
+
+-   Bar Charts, and Line Graphs
+
+------------------------------------------------------------------------
+
+## RQ3 / H3 (Kairi)
+
+-   **Research Question 3 (RQ3):**\
+    To what extent do people think they are going to catch Covid-19 staying in coffee shop after the pandemic?
+
+-   **Hypothesis 3 (H3):**\
+    After Covid-19, people are confident they won't catch Covid-19 staying in coffee shops.
+
+### Variables
+
+-   **Independent Variable (IV):** the measures of the extent to which people think they might Covid-19 staying in a coffee shop. (e.g., very unlikely, unlikely, somewhat unlikely, neutral, somewhat likely, likely, very likely)
+-   **Dependent Variable (DV):** The participants response to how confident they are in catching Covid-19 staying in a coffee shop according to the options
+
+### Plan for Data Wrangling
+
+-   removing outliers
+
+-   labeling options with the appropriate numerical value to help with graphing
+
+### Plan for Data Visualization
+
+-   We can use a bar chart where the x-axis is going to be the likelihood categories (1,2,3,4,5,6,7) and y-axis is the amount of respondents to each category
+-   We can use a histogram with the same x and y values to see a consistent slope
+-   We can use a pie chart to see the data as a whole distributed into parts and percentages
+
+------------------------------------------------------------------------
+
+## RQ4 / H4 (Aaron)
+
+-   **Research Question 4 (RQ4):**\
+    What are people's attitudes toward wearing a mask in coffee shops in future pandemics after the previous Covid-19 pandemic?
+
+-   **Hypothesis 4 (H4):**\
+    After Covid-19, most people will think it is wise to wear a mask in a coffee shop during a future pandemic after the previous Covid-19 pandemic.
+
+### Variables
+
+-   **Independent Variable (IV):** the measures of the extent to which people think wearing a mask is foolish or wise during a future pandemic staying in a coffee shop for at least 15 minutes (e.g., foolish, wise, with a scale of 1, 2, 3, 4, 5, 7 with 4 being a neutral option, 1 being strongest stance on foolish and 7 being strongest stance on wise).
+-   **Dependent Variable (DV):** The participants response to which option they pick on the scale of 1-7.
+
+### Plan for Data Wrangling
+
+-   removing outliers
+
+-   possibly removing neutrals because they don't serve confident/clear data
+
+-   labeling options with the appropriate numerical value to help with graphing
+
+### Plan for Data Visualization
+
+-   We can use a bar chart where the x-axis is going to be the scale categories (1,2,3,4,5,6,7) and y-axis is the amount of respondents to each category
+-   We can use a pie chart to see the data as a whole distributed into parts and percentages
+
+------------------------------------------------------------------------
+
+## RQ5 / H5 (Richard)
+
+-   **Research Question 5 (RQ5):**\
+    How comfortable do people feel wearing a mask in coffee shops in future pandemics after the previous Covid-19 pandemic?
+
+-   **Hypothesis 5 (H5):**\
+    After Covid-19, most people are comfortable wearing a mask in a coffee shop during a future pandemic after the previous Covid-19 pandemic.
+
+### Variables
+
+-   **Independent Variable (IV):** the measures of the extent to which people think wearing a mask is uncomfortable or comfortable during a future pandemic staying in a coffee shop for at least 15 minutes (e.g., uncomfortable, comfortable, with a scale of 1, 2, 3, 4, 5, 7 with 4 being a neutral option, 1 being strongest stance on uncomfortable and 7 being strongest stance on comfortable).
+-   **Dependent Variable (DV):** The participants response to which option they pick on the scale of 1-7.
+
+### Plan for Data Wrangling
+
+-   removing outliers
+-   possibly removing neutrals because they don't serve confident/clear data
+-   labeling options with the appropriate numerical value to help with graphing
+
+### Plan for Data Visualization
+
+-   We can use a bar chart where the x-axis is going to be the scale categories (1,2,3,4,5,6,7) and y-axis is the amount of respondents to each category
+-   We can use a pie chart to see the data as a whole distributed into parts and percentages
+
+------------------------------------------------------------------------
+
+## RQ6 / H6 (Jonathan)
+
+-   **Research Question 6 (RQ6):**\
+    How has mask-wearing usage changed among individuals in the post-pandemic era and how do they react to health-related behaviors compared to during the pandemic?
+
+-   **Hypothesis 6 (H6):**\
+    In the post-pandemic era, individuals are less likely to consistently wear masks compared to during the pandemic. However, those with higher levels of germ distaste and greater susceptibility to illness are more likely to continue using masks and other health-related precautions, such as hand sanitizers and avoiding shared personal items.
+
+### Variables
+
+-   **Independent Variable (IV):** Pandemic Status (During or Post Pandemic)
+-   **Dependent Variable (DV):** Usage of Masks & Reactions to health-related behavior
+
+### Plan for Data Wrangling
+
+-   Remove or adjust extreme values
+-   Categorize Responses
+
+### Plan for Data Visualization
+
+-   bar charts to compare the frequency of mask-wearing, sanitizer use, and other behaviors before and after the pandemic
+
+-   Use a line chart to show changes in mask-wearing behavior over time
+
+------------------------------------------------------------------------
+
+## Conclusion
+
+-   This research aims to analyze the impact of COVID-19 on customer behaviors and perceptions in coffee shops. Through systematic data cleaning and preparation, we ensure the accuracy and reliability of our findings.
+
+-   Our six research questions explore critical areas, including safety compliance, customer preferences, digital adoption, cleanliness perceptions, and payment behaviors. By leveraging advanced data wrangling and visualization techniques, we will uncover valuable insights to guide businesses in adapting to post-pandemic consumer expectations.
+
+-   The outcomes of this study will provide actionable recommendations for coffee shop owners and policymakers to enhance customer experiences and maintain public safety in a post-COVID landscape.
+
+------------------------------------------------------------------------
+
+## Questions?
+
+Feel free to ask any questions!

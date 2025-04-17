@@ -1,0 +1,60 @@
+---
+title: "Dashboard"
+format:
+  html:
+    toc: true
+    code-fold: true
+execute:
+  echo: false
+---
+
+# Dashboard Example
+
+Welcome to the dashboard! Below are some interactive visualizations.
+
+## Interactive Plot
+
+```{r}
+library(ggplot2)
+library(plotly)
+
+# Example dataset
+data(mpg)
+
+# Create a ggplot
+p <- ggplot(mpg, aes(x = displ, y = hwy, color = class)) +
+  geom_point() +
+  labs(title = "Engine Displacement vs Highway MPG")
+
+# Convert to a Plotly interactive plot
+plotly::ggplotly(p)
+```
+
+## Summary Table
+
+```{r}
+library(dplyr)
+
+# Create a summary table
+summary_table <- mpg %>%
+  group_by(class) %>%
+  summarise(
+    Avg_Highway_MPG = mean(hwy),
+    Avg_Engine_Displacement = mean(displ)
+  )
+
+knitr::kable(summary_table, format = "html")
+```
+
+## Filtered Data
+
+```{r}
+library(DT)
+
+# Create an interactive data table
+datatable(mpg, options = list(pageLength = 5))
+```
+
+```{r}
+library(quarto)
+```
